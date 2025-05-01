@@ -267,7 +267,7 @@ export default function QurbanLandingPage() {
                             <h1 className="text-4xl md:text-5xl font-bold mb-4">Qurban Mudah dan Amanah</h1>
                             <p className="text-lg md:text-xl mb-8">Layanan qurban terpercaya dengan hewan yang sehat dan berkualitas. Mudah, praktis, dan sesuai syariat.</p>
                             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                                <a href="https://wa.me/6285715347847?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank" rel="noopener noreferrer">
+                                <a href="https://wa.me/628123456789?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank" rel="noopener noreferrer">
                                 <button className="bg-white text-green-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition duration-300">Pesan Sekarang</button>
                                 </a>
                             </div>
@@ -322,7 +322,7 @@ export default function QurbanLandingPage() {
                                             </li>
                                         ))}
                                     </ul>
-                                    <a href="https://wa.me/6285715347847?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://wa.me/628123456789?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank" rel="noopener noreferrer">
                                     <button className="w-full bg-green-600 text-white font-medium py-2 rounded-md hover:bg-green-700 transition duration-300 flex items-center justify-center">
                                         Pesan Sekarang
                                         <ArrowRight size={16} className="ml-2" />
@@ -431,7 +431,7 @@ export default function QurbanLandingPage() {
                                     <textarea className="w-full p-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-green-600 h-32"></textarea>
                                 </div>
 
-                                <button onClick={() => window.open("https://wa.me/6285715347847?text=Halo%20saya%20tertarik", "_blank")} className="w-full bg-green-600 text-white font-medium py-3 rounded-md hover:bg-green-700 transition duration-300">Kirim Pesan</button>
+                                <button onClick={() => window.open("https://wa.me/628123456789?text=Halo%20saya%20tertarik", "_blank")} className="w-full bg-green-600 text-white font-medium py-3 rounded-md hover:bg-green-700 transition duration-300">Kirim Pesan</button>
                             </form>
                         </div>
                         <div className="bg-white rounded-lg shadow-lg p-6 text-gray-900">

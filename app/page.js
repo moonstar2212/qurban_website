@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { ArrowRight, AlertCircle, Check, Menu, X } from 'lucide-react';
 
+
 export default function QurbanLandingPage() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -368,7 +369,7 @@ export default function QurbanLandingPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-gray-50 p-6 rounded-lg shadow">
-                            <p className="text-gray-600 mb-4">"Prosesnya sangat mudah dan transparan. Saya bisa memantau prosesi qurban melalui video dan foto yang dikirimkan. Sangat amanah."</p>
+                            <p className="text-gray-600 mb-4">Prosesnya sangat mudah dan transparan. Saya bisa memantau prosesi qurban melalui video dan foto yang dikirimkan. Sangat amanah.</p>
                             <div className="flex items-center">
                                 <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold text-xl mr-4">A</div>
                                 <div>
@@ -378,7 +379,7 @@ export default function QurbanLandingPage() {
                             </div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg shadow">
-                            <p className="text-gray-600 mb-4">"Kualitas hewan qurbannya sangat baik. Distribusinya juga sangat luas hingga ke daerah-daerah terpencil yang membutuhkan."</p>
+                            <p className="text-gray-600 mb-4">Kualitas hewan qurbannya sangat baik. Distribusinya juga sangat luas hingga ke daerah-daerah terpencil yang membutuhkan.</p>
                             <div className="flex items-center">
                                 <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold text-xl mr-4">S</div>
                                 <div>
@@ -388,7 +389,7 @@ export default function QurbanLandingPage() {
                             </div>
                         </div>
                         <div className="bg-gray-50 p-6 rounded-lg shadow">
-                            <p className="text-gray-600 mb-4">"Sudah 3 tahun berturut-turut saya berqurban melalui layanan ini. Pelayanannya sangat profesional dan sesuai syariat."</p>
+                            <p className="text-gray-600 mb-4">Sudah 3 tahun berturut-turut saya berqurban melalui layanan ini. Pelayanannya sangat profesional dan sesuai syariat.</p>
                             <div className="flex items-center">
                                 <div className="w-12 h-12 bg-gray-300 rounded-full flex items-center justify-center text-gray-600 font-bold text-xl mr-4">R</div>
                                 <div>
